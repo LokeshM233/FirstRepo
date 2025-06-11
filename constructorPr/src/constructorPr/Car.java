@@ -27,6 +27,8 @@ public class Car {
 		System.out.println("Car 1: " + car1.color + ", " + car1.model + ", " + car1.year + ", " + car1.make);
 		Car car2 = new Car("Blue", "Model 3");
 		System.out.println("Car 2: " + car2.color + ", " + car2.model + ", " + car2.year + ", " + car2.make);
+		Car car3 = new Car("Green", "Model X", 2022, "Tesla");
+		System.out.println("Car 3: " + car3.color + ", " + car3.model + ", " + car3.year + ", " + car3.make);
 	}
 
 }
